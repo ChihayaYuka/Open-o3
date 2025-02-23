@@ -1,6 +1,6 @@
 # Open-o3
 
-> [!TIPS]
+> [!TIP]
 > This is a framework of reasoning, not a model. You can use the framework on any LLM.
 
 [简体中文](README_zh.md) | English
