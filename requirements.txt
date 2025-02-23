@@ -9,3 +9,6 @@ matplotlib
 seaborn
 gudhi
 pandas
+trl
+datasets
+sentence-transformers
