@@ -8,6 +8,7 @@ import datetime
 from typing import List, Tuple, Optional, Dict, Any
 
 import torch
+import config
 import numpy as np
 from scipy.stats import entropy, kstest
 from scipy.linalg import hadamard
@@ -67,8 +68,9 @@ class o3:
 
        # 加载基础语言模型和验证器
        try:
-           self.model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3-8B").to(self.device)
-           self.tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3-8B")
+           m_config = config()
+           self.model = AutoModelForCausalLM.from_pretrained(m_config.get_baseline_name()).to(self.device)
+           self.tokenizer = AutoTokenizer.from_pretrained(m_config.get_baseline_name())
            self.validator = BertForSequenceClassification.from_pretrained('bert-validator').to(self.device)
            logger.info("Successfully loaded pre-trained models, running on device: %s", self.device)  
        except Exception as e:
