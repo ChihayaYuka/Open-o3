@@ -1,6 +1,6 @@
 # Open-o3
 
-> [!INFO]
+> [!TIPS]
 > 这是一个推理框架，而非模型。您可以将该框架用于任何 LLM 上。
 
 简体中文 | [English](README.md)
