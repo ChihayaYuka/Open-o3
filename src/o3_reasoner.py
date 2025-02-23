@@ -8,8 +8,8 @@ import datetime
 from typing import List, Tuple, Optional, Dict, Any
 
 import torch
-import config
 import numpy as np
+from config import config
 from scipy.stats import entropy, kstest
 from scipy.linalg import hadamard
 from sklearn.cluster import SpectralClustering
