@@ -3,7 +3,7 @@
 > [!TIP]
 > This is a framework of reasoning, not a model. You can use the framework on any LLM.
 
-[简体中文](README_zh.md) | English
+[简体中文](README_zh.md) | English | [Blog](https://yuka.living/2025/02/26/open-o3-a-framework-for-exponentially-improving-llm-accuracy-through-systematic-resampling/)
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Version](https://img.shields.io/badge/Version-0.1.0-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025/2/21-orange)
 
