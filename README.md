@@ -3,7 +3,9 @@
 > [!TIP]
 > This is a framework of reasoning, not a model. You can use the framework on any LLM.
 
-[简体中文](README_zh.md) | English | [Blog](https://yuka.living/2025/02/26/open-o3-a-framework-for-exponentially-improving-llm-accuracy-through-systematic-resampling/)
+![Logo](./.github/media/logo.png)
+
+[Blog](https://yuka.living/2025/02/26/open-o3-a-framework-for-exponentially-improving-llm-accuracy-through-systematic-resampling/)
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Version](https://img.shields.io/badge/Version-0.1.0-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025/2/21-orange)
 
@@ -16,7 +18,7 @@ Open-o3 is an efficient and scalable language model, which is an open-source rep
 ## Usage Example
 
 ```python
-    system_prompt = "You are a large reasoning model Open-o3 developed by Lumen Intelligence."
+    system_prompt = "You are a large reasoning model Open-o3 developed by Lumen Lab."
     reasoner = o3(system_prompt=system_prompt, enable_tda=True, save_results=True)   
     reasoner.run_example()
 ```
@@ -39,19 +41,3 @@ If you have any questions, suggestions, or feedback, feel free to contact us via
 
 - Email: [yuka@lumenlab.cc](mailto:yuka@lumenlab.cc)
 - GitHub Issues: [https://github.com/ChihayaYuka/Open-o3](https://github.com/ChihayaYuka/Open-o3)
-
-## Acknowledgements
-
-Special thanks to all the developers and researchers who contributed to the Open-o3 project.
-
-> [!TIP]
-> We also thank the OpenAI team for their inspiration, which made this open-source
-> project possible.
-
-Thanks to the following open-source projects for their support:
-
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [PyTorch](https://pytorch.org/)
-
-Also, thanks to all the developers who participated in testing, reporting issues, and contributing code.
-
