@@ -1,13 +1,18 @@
-# Open-o3
-
-> [!TIP]
-> This is a framework of reasoning, not a model. You can use the framework on any LLM.
+<div align="center">
 
 ![Logo](./.github/media/logo.png)
+
+<br><br>
+
+# Open-o3
 
 [Blog](https://yuka.living/2025/02/26/open-o3-a-framework-for-exponentially-improving-llm-accuracy-through-systematic-resampling/)
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Version](https://img.shields.io/badge/Version-0.1.0-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025/2/21-orange)
+</div>
+
+> [!TIP]
+> This is a framework of reasoning, not a model. You can use the framework on any LLM.
 
 Open-o3 is the open-source version of OpenAI's o3. This project aims to provide a powerful, open, and accessible language model for researchers and developers, advancing the field of artificial intelligence. Open-o3 is committed to offering flexible and customizable interfaces to support various reasoning tasks such as numerical calculations, programming, logic reasoning, etc. Through this open-source project, we hope to foster innovation and application of AI technology.
 
