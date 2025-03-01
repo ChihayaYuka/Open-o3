@@ -65,7 +65,7 @@ print(result)
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | `system_prompt` | str | Required | Initial instructions for the model |
-| `model` | str | "gpt-3.5-turbo" | The LLM to use |
+| `model` | str | "deepseek-r1" | The LLM to use |
 | `enable_tda` | bool | False | Whether to use TDA |
 | `max_iterations` | int | 3 | Maximum reasoning iterations |
 | `temperature` | float | 0.8 | Sampling temperature for the model |
@@ -134,4 +134,7 @@ This project is licensed under the MIT License, allowing you to freely use, modi
 
 ## Contact Information
 
-If you have any questions, suggestions, or feedback, feel free to contact us via the following m
+If you have any questions, suggestions, or feedback, feel free to contact us via the following methods:
+
+- Email: [yuka@lumenlab.cc](mailto:yuka@lumenlab.cc)
+- GitHub Issues: [https://github.com/ChihayaYuka/Open-o3](https://github.com/ChihayaYuka/Open-o3)
